@@ -15,6 +15,7 @@ alphabet = []
 for c in alphabet_string:
     alphabet.append(c)
 
+# Function to decode a message received
 def caesar_cipher_decode(message, offset):
     decoded_message = ''
     message_lower = message.lower()
@@ -44,6 +45,7 @@ decoded_message = caesar_cipher_decode(encoded_message, offset)
 print(decoded_message)
 
 
+# Function to encode a message
 def caesar_cipher_encode(message, offset):
     encoded_message = ''
     message_lower = message.lower()
